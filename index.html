@@ -6,16 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onload="carregar()">
+<body >
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Teste idade </h1>
     </header>
-    <div class="container">
-        <div class="clock">
-            <p id="horario">agora são 10 horas</p>
-            <img src="image/tarde.jpg" alt="image" id="image">
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtnascimento" id="txtnascimento">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sexo" value="masculino" id="masculino" checked> Masculino
+                <input type="radio" name="sexo" value="feminino" id="feminino"> Feminino
+                <input type="radio" name="sexo" value="crianca"> crinaça
+                <input type="button" value="verificar" onclick="carregar()">
+            </p>
         </div>
-    </div>
+        <div class="res">
+          
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
